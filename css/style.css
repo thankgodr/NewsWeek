@@ -19,11 +19,39 @@ a:hover{
   text-decoration-color: #f72110;
 }
 
+footer ul {
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+footer li {
+  margin-right: 10px
+}
+
+.featuredStory .ticky-top{
+  z-index: -1;
+}
+
+.text-danger {
+  color: #f72110;
+}
+
 .page-header {
   background: #f72110;
   color: #fff;
   font: bold 14px/14px "Roboto Condensed",sans-serif;
   text-transform: uppercase;
+}
+
+
+.subImgTwo {
+  position: relative;
+  right: 101px;
+  top: 14px;
+}
+
+.newLaterImg {
+  height: 150px;
 }
 
 .menuSub {
@@ -108,6 +136,17 @@ a:hover{
   fill:  #fff;
 }
 
+.logo svg{
+  fill:  #f72110;
+  max-width: 200px;
+}
+
+.icons a{
+  font-size: 26px;
+  color: #666;
+  margin-right: 10px;
+}
+
 .page-header ul{
   list-style: none;
   display: -webkit-box;
@@ -157,4 +196,14 @@ a:hover{
   width: 29px;
   height: 28px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+@media (min-width: 768px){
+  .newLaterImg{
+  	height: 94%;
+  	object-fit: contain;
+  }
+
+  .p-footer {
+  	font: 300 15px/21px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
 }
