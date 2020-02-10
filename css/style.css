@@ -1,0 +1,160 @@
+h2 {
+  color: rgba(3,3,3,.4);
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
+
+body{
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration-color: #f72110;
+}
+
+.page-header {
+  background: #f72110;
+  color: #fff;
+  font: bold 14px/14px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+}
+
+.menuSub {
+  background: #fff;
+  color: #f72110;
+}
+
+.imgContainer{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.imgContainer img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.imgContainer span{
+  position: relative;
+  bottom: 25px;
+  left: 0;
+  color: #f72110;
+  background: #fff;
+  padding: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.imgContainer span a{
+  color: #f72110;
+  text-decoration-line: none;
+  text-transform: uppercase;
+}
+
+.greyBg {
+ background-color: #f4f5f7
+}
+
+.greyBg article {
+ margin-bottom: 20px;
+}
+
+.tag{
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;	
+}	
+
+.tag a{
+  color: #333;	
+}
+.articleTitle{
+  font-size: 22px;
+  line-height: 24px;
+  font-family: "Roboto Condensed",sans-serif;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.articleTitle2{
+  display: block;	
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Roboto Condensed",sans-serif;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 800;
+}
+.articleTitle3{
+  display: block;
+  color: #272727;
+  font: 20px/22px "Lora",serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.page-header svg{
+  fill:  #fff;
+}
+
+.page-header ul{
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  font-size: 18px;
+}
+
+.page-header ul > li{
+  margin-right: 10px;
+  padding: 5px;	
+}
+
+.page-header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menuSub a {
+  color: #f72110;
+}
+
+.fa-bars {
+  color: #333;
+}
+
+.ipinoinImage {
+  border-radius: 50%;
+}
+
+.ipinoinImage > img{
+   object-fit: contain;	
+   width: 66px;
+   height: 66px;
+   margin-bottom: 14px;
+}
+.insight article {
+  border: 1px solid #e6e6e6;
+  margin-bottom: 10px;
+}
+
+.icon-n {
+  -webkit-flex: none;
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
