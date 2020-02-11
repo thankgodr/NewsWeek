@@ -283,3 +283,9 @@ footer li {
     margin: 0 auto;
   }
 }
+
+@media (min-width: 994px) {
+  .page-header {
+    position: unset !important;
+  }
+}
