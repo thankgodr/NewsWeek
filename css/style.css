@@ -6,6 +6,18 @@ h2 {
 }
 
 body{
+  height: 100%;
+}
+
+
+
+img {
+  vertical-align: middle;
+  height: auto;
+}
+
+
+body{
   color: #333;
   font-size: 13px;
   line-height: 18px;
@@ -37,17 +49,49 @@ footer li {
 }
 
 .page-header {
-  background: #f72110;
   color: #fff;
   font: bold 14px/14px "Roboto Condensed",sans-serif;
   text-transform: uppercase;
+  z-index: 99999;
 }
 
+.page-header .redBg{
+  background: #f72110;
+}
+
+.page-header .bg-white li {
+  border-left: 1px solid #d9d9d9;
+  flex-grow: 1;
+}
+.page-header .bg-white ul{
+}
+
+.page-header .bg-white{
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.page-header li a{
+  color: #000;
+  font-size: 15px;
+}
 
 .subImgTwo {
   position: relative;
   right: 101px;
   top: 14px;
+}
+
+.opinion .articleTitle2, .latestNews .articleTitle2{
+  font-size: 13px;
+  line-height: 12px;
+}
+
+.opinion .articleTitle3 {
+  font-size: 12px;
+}
+
+.opinion hr {
+  margin-top: 0;
 }
 
 .newLaterImg {
@@ -69,6 +113,16 @@ footer li {
   width: 100%;
   object-fit: cover;
 }
+
+.textBoder {
+  border-top: 20px solid red;
+  border-left: 20px solid #f6f6f6;
+  position: absolute;
+  width: 40px;
+  top: 0;
+  right: 0;
+}
+
 
 .imgContainer span{
   position: relative;
@@ -107,6 +161,7 @@ footer li {
 .tag a{
   color: #333;	
 }
+
 .articleTitle{
   font-size: 22px;
   line-height: 24px;
@@ -134,6 +189,8 @@ footer li {
 
 .page-header svg{
   fill:  #fff;
+  max-height: 200px;
+  max-width: 250px  ;
 }
 
 .logo svg{
@@ -149,11 +206,10 @@ footer li {
 
 .page-header ul{
   list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-box;
+  display: flex;
   display: box;
   font-size: 18px;
+  white-space: nowrap;
 }
 
 .page-header ul > li{
@@ -197,6 +253,24 @@ footer li {
   height: 28px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
 }
+.sticky{
+  position: sticky !important;
+  top: 0;
+  
+}
+
+#topstory {
+  position: sticky;
+  top: 0;
+}
+
+* {
+  overflow: unset;
+  overflow-wrap: unset;
+  overflow-y: unset;
+  overflow-x: unset;
+}
+
 @media (min-width: 768px){
   .newLaterImg{
   	height: 94%;
@@ -206,4 +280,14 @@ footer li {
   .p-footer {
   	font: 300 15px/21px "Helvetica Neue",Helvetica,Arial,sans-serif;
   }
+
+  .logo svg{
+    min-width: 200px;
+  }
+  .logo p {
+    margin: 0 auto;
+  }
+
+
+
 }
