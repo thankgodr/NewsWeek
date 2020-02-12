@@ -21,8 +21,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration-color: #f72110;
+footer a {
+  color: #666;
 }
 
 footer ul {
@@ -123,6 +123,15 @@ footer li {
 .page-header a {
   text-decoration: none;
   color: #fff;
+}
+
+a:hover {
+  text-decoration-color: #f72110;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #000;
 }
 
 .page-header li a {
